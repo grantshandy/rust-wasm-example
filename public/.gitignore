@@ -1,0 +1,5 @@
+package.json
+README.md
+*.ts
+*.wasm
+rust-wasm-example.js
