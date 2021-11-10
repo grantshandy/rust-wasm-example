@@ -1,0 +1,12 @@
+{
+  "name": "rust-wasm-example",
+  "version": "0.1.0",
+  "files": [
+    "rust-wasm-example_bg.wasm",
+    "rust-wasm-example.js",
+    "rust-wasm-example.d.ts"
+  ],
+  "module": "rust-wasm-example.js",
+  "types": "rust-wasm-example.d.ts",
+  "sideEffects": false
+}

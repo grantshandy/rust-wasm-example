@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>wasm-pack</title>
+  </head>
+  <body>
+    <h1>Rust Wasm-Pack Github Pages Example</h1>
+    <script type="module">
+        import init, {greet} from './rust-wasm-example.js';
+
+        (async () => {
+            await init();
+
+            greet("World!");
+        })();
+    </script>
+  </body>
+</html>
